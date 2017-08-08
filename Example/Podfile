@@ -1,0 +1,6 @@
+use_frameworks!
+target 'iosThrymrSamplePod_Tests' do
+  pod 'iosThrymrSamplePod', :path => '../'
+  
+  
+end
