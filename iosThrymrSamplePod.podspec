@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'iosThrymrSamplePod'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of iosThrymrSamplePod.'
+  s.summary          = 'A sample iosThrymrSamplePod.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,8 +18,8 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+A sample iosThrymrSamplePod for internal usage.
+DESC
 
   s.homepage         = 'https://github.com/ajaykolipaka18/iosThrymrSamplePod'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -37,6 +37,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+    s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

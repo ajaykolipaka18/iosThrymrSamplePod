@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0A13A67A1AD8B17ED88E49090F2F6FAC /* iosThrymrSamplePod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E50FBB141EB0582D6E0F691FF69D3190 /* iosThrymrSamplePod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2BBF911DEE9942C586950B8C44196432 /* Pods-iosThrymrSamplePod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 780F4D30AD56E767F02B6B4D0B5F962A /* Pods-iosThrymrSamplePod_Tests-dummy.m */; };
+		59B68A351F398EA90036D34E /* SampleDemoClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 59B68A331F398EA90036D34E /* SampleDemoClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59B68A361F398EA90036D34E /* SampleDemoClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 59B68A341F398EA90036D34E /* SampleDemoClass.m */; };
 		759A5BB9A59BBA70ED735ACD4510DFA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		761164353E3832C24E4AD84CF3E393C2 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 902BA8CF29B8053D0E9C7379D361BF36 /* ReplaceMe.m */; };
 		7A226F133B8CEA3BC11DA7B4705E1C7E /* Pods-iosThrymrSamplePod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 43136026F322B6971B3B580AF66E8BEA /* Pods-iosThrymrSamplePod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -27,26 +29,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0529CD3D7C26551201B69A71CB2A5487 /* Pods-iosThrymrSamplePod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-iosThrymrSamplePod_Tests.modulemap"; sourceTree = "<group>"; };
+		0529CD3D7C26551201B69A71CB2A5487 /* Pods-iosThrymrSamplePod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-iosThrymrSamplePod_Tests.modulemap"; sourceTree = "<group>"; };
 		102951127A1E6848C7AAF5459C0DBA0E /* iosThrymrSamplePod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iosThrymrSamplePod-dummy.m"; sourceTree = "<group>"; };
 		149073C7991400314DA5F2D1A0CE5754 /* iosThrymrSamplePod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iosThrymrSamplePod-prefix.pch"; sourceTree = "<group>"; };
 		2563288BFF145D5A6174890436E76968 /* Pods-iosThrymrSamplePod_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iosThrymrSamplePod_Tests-resources.sh"; sourceTree = "<group>"; };
 		43136026F322B6971B3B580AF66E8BEA /* Pods-iosThrymrSamplePod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iosThrymrSamplePod_Tests-umbrella.h"; sourceTree = "<group>"; };
 		4DBC91026B8AFB248AB429A70769C0C0 /* Pods-iosThrymrSamplePod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iosThrymrSamplePod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		59B68A331F398EA90036D34E /* SampleDemoClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleDemoClass.h; sourceTree = "<group>"; };
+		59B68A341F398EA90036D34E /* SampleDemoClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleDemoClass.m; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7383900182663297B055316A13F9CEED /* Pods_iosThrymrSamplePod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iosThrymrSamplePod_Tests.framework; path = "Pods-iosThrymrSamplePod_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7383900182663297B055316A13F9CEED /* Pods_iosThrymrSamplePod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iosThrymrSamplePod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		780F4D30AD56E767F02B6B4D0B5F962A /* Pods-iosThrymrSamplePod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iosThrymrSamplePod_Tests-dummy.m"; sourceTree = "<group>"; };
-		8424683A9B1C2B55B09843F3A490D229 /* iosThrymrSamplePod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = iosThrymrSamplePod.modulemap; sourceTree = "<group>"; };
+		8424683A9B1C2B55B09843F3A490D229 /* iosThrymrSamplePod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = iosThrymrSamplePod.modulemap; sourceTree = "<group>"; };
 		8D5881C99358949329ED4F3E142D6522 /* iosThrymrSamplePod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iosThrymrSamplePod.xcconfig; sourceTree = "<group>"; };
 		902BA8CF29B8053D0E9C7379D361BF36 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = iosThrymrSamplePod/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B4DD195605ABB2963600B6C86680C0F7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9BE77AF70B36E64666F3862479BED91 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCC2E41CADEA32314A46685628B845F2 /* Pods-iosThrymrSamplePod_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iosThrymrSamplePod_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		E50FBB141EB0582D6E0F691FF69D3190 /* iosThrymrSamplePod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iosThrymrSamplePod-umbrella.h"; sourceTree = "<group>"; };
 		EB4CDE15B86EB1EEE9E30C2A1300DECF /* Pods-iosThrymrSamplePod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iosThrymrSamplePod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EFC85C466C611AFDFFCB86A7F09A35BB /* Pods-iosThrymrSamplePod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iosThrymrSamplePod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F77A7F0D5E4FEA1FC5D4A056D966EF53 /* iosThrymrSamplePod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = iosThrymrSamplePod.framework; path = iosThrymrSamplePod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F77A7F0D5E4FEA1FC5D4A056D966EF53 /* iosThrymrSamplePod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iosThrymrSamplePod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF6317A29CF52476F4321F17A311359D /* Pods-iosThrymrSamplePod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iosThrymrSamplePod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,6 +79,8 @@
 			children = (
 				902BA8CF29B8053D0E9C7379D361BF36 /* ReplaceMe.m */,
 				F27ECC863E4BDCC790DD9F4AE50A62B9 /* Support Files */,
+				59B68A331F398EA90036D34E /* SampleDemoClass.h */,
+				59B68A341F398EA90036D34E /* SampleDemoClass.m */,
 			);
 			name = iosThrymrSamplePod;
 			path = ../..;
@@ -179,6 +185,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59B68A351F398EA90036D34E /* SampleDemoClass.h in Headers */,
 				0A13A67A1AD8B17ED88E49090F2F6FAC /* iosThrymrSamplePod-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,6 +270,7 @@
 			files = (
 				BEEAF6CCB272CC755E29B3C4D4B5ABA8 /* iosThrymrSamplePod-dummy.m in Sources */,
 				761164353E3832C24E4AD84CF3E393C2 /* ReplaceMe.m in Sources */,
+				59B68A361F398EA90036D34E /* SampleDemoClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
