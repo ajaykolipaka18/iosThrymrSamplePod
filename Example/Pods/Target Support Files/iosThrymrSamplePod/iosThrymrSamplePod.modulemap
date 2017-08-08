@@ -1,0 +1,6 @@
+framework module iosThrymrSamplePod {
+  umbrella header "iosThrymrSamplePod-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A13A67A1AD8B17ED88E49090F2F6FAC /* iosThrymrSamplePod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E50FBB141EB0582D6E0F691FF69D3190 /* iosThrymrSamplePod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BBF911DEE9942C586950B8C44196432 /* Pods-iosThrymrSamplePod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 780F4D30AD56E767F02B6B4D0B5F962A /* Pods-iosThrymrSamplePod_Tests-dummy.m */; };
+		759A5BB9A59BBA70ED735ACD4510DFA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		761164353E3832C24E4AD84CF3E393C2 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 902BA8CF29B8053D0E9C7379D361BF36 /* ReplaceMe.m */; };
+		7A226F133B8CEA3BC11DA7B4705E1C7E /* Pods-iosThrymrSamplePod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 43136026F322B6971B3B580AF66E8BEA /* Pods-iosThrymrSamplePod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		940B0F966EDFA5C7733B9B4C0FE69A36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		BEEAF6CCB272CC755E29B3C4D4B5ABA8 /* iosThrymrSamplePod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 102951127A1E6848C7AAF5459C0DBA0E /* iosThrymrSamplePod-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5B18B15AE6C029901D2E95B57EA2F85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52E3C9F67F5ADD1DA9010EFD44191888;
+			remoteInfo = iosThrymrSamplePod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0529CD3D7C26551201B69A71CB2A5487 /* Pods-iosThrymrSamplePod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-iosThrymrSamplePod_Tests.modulemap"; sourceTree = "<group>"; };
+		102951127A1E6848C7AAF5459C0DBA0E /* iosThrymrSamplePod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iosThrymrSamplePod-dummy.m"; sourceTree = "<group>"; };
+		149073C7991400314DA5F2D1A0CE5754 /* iosThrymrSamplePod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iosThrymrSamplePod-prefix.pch"; sourceTree = "<group>"; };
+		2563288BFF145D5A6174890436E76968 /* Pods-iosThrymrSamplePod_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iosThrymrSamplePod_Tests-resources.sh"; sourceTree = "<group>"; };
+		43136026F322B6971B3B580AF66E8BEA /* Pods-iosThrymrSamplePod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iosThrymrSamplePod_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4DBC91026B8AFB248AB429A70769C0C0 /* Pods-iosThrymrSamplePod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iosThrymrSamplePod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7383900182663297B055316A13F9CEED /* Pods_iosThrymrSamplePod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iosThrymrSamplePod_Tests.framework; path = "Pods-iosThrymrSamplePod_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		780F4D30AD56E767F02B6B4D0B5F962A /* Pods-iosThrymrSamplePod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iosThrymrSamplePod_Tests-dummy.m"; sourceTree = "<group>"; };
+		8424683A9B1C2B55B09843F3A490D229 /* iosThrymrSamplePod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = iosThrymrSamplePod.modulemap; sourceTree = "<group>"; };
+		8D5881C99358949329ED4F3E142D6522 /* iosThrymrSamplePod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iosThrymrSamplePod.xcconfig; sourceTree = "<group>"; };
+		902BA8CF29B8053D0E9C7379D361BF36 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = iosThrymrSamplePod/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B4DD195605ABB2963600B6C86680C0F7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9BE77AF70B36E64666F3862479BED91 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCC2E41CADEA32314A46685628B845F2 /* Pods-iosThrymrSamplePod_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iosThrymrSamplePod_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		E50FBB141EB0582D6E0F691FF69D3190 /* iosThrymrSamplePod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iosThrymrSamplePod-umbrella.h"; sourceTree = "<group>"; };
+		EB4CDE15B86EB1EEE9E30C2A1300DECF /* Pods-iosThrymrSamplePod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iosThrymrSamplePod_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		EFC85C466C611AFDFFCB86A7F09A35BB /* Pods-iosThrymrSamplePod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iosThrymrSamplePod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F77A7F0D5E4FEA1FC5D4A056D966EF53 /* iosThrymrSamplePod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = iosThrymrSamplePod.framework; path = iosThrymrSamplePod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF6317A29CF52476F4321F17A311359D /* Pods-iosThrymrSamplePod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iosThrymrSamplePod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F9F9307330ABD133FCAE29B8BC2D539 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				940B0F966EDFA5C7733B9B4C0FE69A36 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D41EEAE14AC96B24F4A5EFB5801794 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				759A5BB9A59BBA70ED735ACD4510DFA4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62C39883FC1ABA54046E2BC0C1711888 /* iosThrymrSamplePod */ = {
+			isa = PBXGroup;
+			children = (
+				902BA8CF29B8053D0E9C7379D361BF36 /* ReplaceMe.m */,
+				F27ECC863E4BDCC790DD9F4AE50A62B9 /* Support Files */,
+			);
+			name = iosThrymrSamplePod;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		647671B9E8294D12F613BCE65E077ECF /* Pods-iosThrymrSamplePod_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C9BE77AF70B36E64666F3862479BED91 /* Info.plist */,
+				0529CD3D7C26551201B69A71CB2A5487 /* Pods-iosThrymrSamplePod_Tests.modulemap */,
+				4DBC91026B8AFB248AB429A70769C0C0 /* Pods-iosThrymrSamplePod_Tests-acknowledgements.markdown */,
+				FF6317A29CF52476F4321F17A311359D /* Pods-iosThrymrSamplePod_Tests-acknowledgements.plist */,
+				780F4D30AD56E767F02B6B4D0B5F962A /* Pods-iosThrymrSamplePod_Tests-dummy.m */,
+				DCC2E41CADEA32314A46685628B845F2 /* Pods-iosThrymrSamplePod_Tests-frameworks.sh */,
+				2563288BFF145D5A6174890436E76968 /* Pods-iosThrymrSamplePod_Tests-resources.sh */,
+				43136026F322B6971B3B580AF66E8BEA /* Pods-iosThrymrSamplePod_Tests-umbrella.h */,
+				EFC85C466C611AFDFFCB86A7F09A35BB /* Pods-iosThrymrSamplePod_Tests.debug.xcconfig */,
+				EB4CDE15B86EB1EEE9E30C2A1300DECF /* Pods-iosThrymrSamplePod_Tests.release.xcconfig */,
+			);
+			name = "Pods-iosThrymrSamplePod_Tests";
+			path = "Target Support Files/Pods-iosThrymrSamplePod_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				97B215F4252D35849B62971F4094F9EE /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C4049057877C0FA412BBC61FE861D106 /* Products */,
+				AE0088DAD76E5713D5C3177160D1FC44 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		97B215F4252D35849B62971F4094F9EE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62C39883FC1ABA54046E2BC0C1711888 /* iosThrymrSamplePod */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		AE0088DAD76E5713D5C3177160D1FC44 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				647671B9E8294D12F613BCE65E077ECF /* Pods-iosThrymrSamplePod_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4049057877C0FA412BBC61FE861D106 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F77A7F0D5E4FEA1FC5D4A056D966EF53 /* iosThrymrSamplePod.framework */,
+				7383900182663297B055316A13F9CEED /* Pods_iosThrymrSamplePod_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F27ECC863E4BDCC790DD9F4AE50A62B9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4DD195605ABB2963600B6C86680C0F7 /* Info.plist */,
+				8424683A9B1C2B55B09843F3A490D229 /* iosThrymrSamplePod.modulemap */,
+				8D5881C99358949329ED4F3E142D6522 /* iosThrymrSamplePod.xcconfig */,
+				102951127A1E6848C7AAF5459C0DBA0E /* iosThrymrSamplePod-dummy.m */,
+				149073C7991400314DA5F2D1A0CE5754 /* iosThrymrSamplePod-prefix.pch */,
+				E50FBB141EB0582D6E0F691FF69D3190 /* iosThrymrSamplePod-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/iosThrymrSamplePod";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		248E5E787D1A216A7BD376B16E802AF8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A226F133B8CEA3BC11DA7B4705E1C7E /* Pods-iosThrymrSamplePod_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62586A4C7F25B2B1B76CC6F342BF4BF4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A13A67A1AD8B17ED88E49090F2F6FAC /* iosThrymrSamplePod-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		168DFA0D4047F31B7E9ACAB2EC5979A4 /* Pods-iosThrymrSamplePod_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52D27F58D1331F0CBFCD01338D778A73 /* Build configuration list for PBXNativeTarget "Pods-iosThrymrSamplePod_Tests" */;
+			buildPhases = (
+				8407B3BB73DDEA92E3263782CCDCB246 /* Sources */,
+				63D41EEAE14AC96B24F4A5EFB5801794 /* Frameworks */,
+				248E5E787D1A216A7BD376B16E802AF8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C0FF8BA48A8BF8EE2B35B0915255728 /* PBXTargetDependency */,
+			);
+			name = "Pods-iosThrymrSamplePod_Tests";
+			productName = "Pods-iosThrymrSamplePod_Tests";
+			productReference = 7383900182663297B055316A13F9CEED /* Pods_iosThrymrSamplePod_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		52E3C9F67F5ADD1DA9010EFD44191888 /* iosThrymrSamplePod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DB081009B5BB66BABAB939A4E35C39B /* Build configuration list for PBXNativeTarget "iosThrymrSamplePod" */;
+			buildPhases = (
+				D4F88F569921EB69545A16E2295791E1 /* Sources */,
+				2F9F9307330ABD133FCAE29B8BC2D539 /* Frameworks */,
+				62586A4C7F25B2B1B76CC6F342BF4BF4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iosThrymrSamplePod;
+			productName = iosThrymrSamplePod;
+			productReference = F77A7F0D5E4FEA1FC5D4A056D966EF53 /* iosThrymrSamplePod.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C4049057877C0FA412BBC61FE861D106 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52E3C9F67F5ADD1DA9010EFD44191888 /* iosThrymrSamplePod */,
+				168DFA0D4047F31B7E9ACAB2EC5979A4 /* Pods-iosThrymrSamplePod_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8407B3BB73DDEA92E3263782CCDCB246 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BBF911DEE9942C586950B8C44196432 /* Pods-iosThrymrSamplePod_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4F88F569921EB69545A16E2295791E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEEAF6CCB272CC755E29B3C4D4B5ABA8 /* iosThrymrSamplePod-dummy.m in Sources */,
+				761164353E3832C24E4AD84CF3E393C2 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C0FF8BA48A8BF8EE2B35B0915255728 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iosThrymrSamplePod;
+			target = 52E3C9F67F5ADD1DA9010EFD44191888 /* iosThrymrSamplePod */;
+			targetProxy = B5B18B15AE6C029901D2E95B57EA2F85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4524FFEC0387C9952150D0A2CCBF86A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFC85C466C611AFDFFCB86A7F09A35BB /* Pods-iosThrymrSamplePod_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-iosThrymrSamplePod_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iosThrymrSamplePod_Tests/Pods-iosThrymrSamplePod_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_iosThrymrSamplePod_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		471D22688A13741E05447416AF3C1696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D5881C99358949329ED4F3E142D6522 /* iosThrymrSamplePod.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/iosThrymrSamplePod/iosThrymrSamplePod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iosThrymrSamplePod/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/iosThrymrSamplePod/iosThrymrSamplePod.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = iosThrymrSamplePod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6A03C9B1314C05BD3C2FBD3F65EDF83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C79291CA15F7C24567537804C6506314 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D5881C99358949329ED4F3E142D6522 /* iosThrymrSamplePod.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/iosThrymrSamplePod/iosThrymrSamplePod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iosThrymrSamplePod/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/iosThrymrSamplePod/iosThrymrSamplePod.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = iosThrymrSamplePod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CDA12FC5DBEE9377A299A0A4CF11E708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB4CDE15B86EB1EEE9E30C2A1300DECF /* Pods-iosThrymrSamplePod_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-iosThrymrSamplePod_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iosThrymrSamplePod_Tests/Pods-iosThrymrSamplePod_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_iosThrymrSamplePod_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A03C9B1314C05BD3C2FBD3F65EDF83 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52D27F58D1331F0CBFCD01338D778A73 /* Build configuration list for PBXNativeTarget "Pods-iosThrymrSamplePod_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4524FFEC0387C9952150D0A2CCBF86A4 /* Debug */,
+				CDA12FC5DBEE9377A299A0A4CF11E708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DB081009B5BB66BABAB939A4E35C39B /* Build configuration list for PBXNativeTarget "iosThrymrSamplePod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C79291CA15F7C24567537804C6506314 /* Debug */,
+				471D22688A13741E05447416AF3C1696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
